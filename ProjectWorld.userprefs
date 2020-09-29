@@ -1,0 +1,34 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/WorldPoliticalMap2DEdition/Scripts/WorldMap2DInitialization.cs">
+    <Files>
+      <File FileName="Assets/WorldPoliticalMap2DEdition/Scripts/Events/EventDisplayer.cs" Line="1" Column="1" />
+      <File FileName="Assets/WorldPoliticalMap2DEdition/Scripts/WorldMap2DInitialization.cs" Line="48" Column="6" />
+      <File FileName="Assets/WorldPoliticalMap2DEdition/Scripts/Tutorial/KeyTutorial.cs" Line="1" Column="1" />
+      <File FileName="Assets/WorldPoliticalMap2DEdition/Scripts/Tutorial/TutorialManager.cs" Line="1" Column="1" />
+      <File FileName="Assets/DisableEvoStatus.cs" Line="1" Column="1" />
+      <File FileName="Assets/WorldPoliticalMap2DEdition/Scripts/WorldMap2DGodStatus.cs" Line="1" Column="1" />
+      <File FileName="Assets/UI/Scripts/GodForm.cs" Line="1" Column="1" />
+      <File FileName="Assets/UI/Scripts/HoldToDisplay.cs" Line="1" Column="1" />
+      <File FileName="Assets/UI/Scripts/AbilityDetail.cs" Line="1" Column="1" />
+      <File FileName="Assets/GodChanTest.cs" Line="1" Column="1" />
+      <File FileName="Assets/WorldPoliticalMap2DEdition/Scripts/Events/Testing_Event.cs" Line="1" Column="1" />
+      <File FileName="Assets/WorldPoliticalMap2DEdition/Editor/WorldMapEditorInspector.cs" Line="1" Column="1" />
+      <File FileName="Assets/WorldPoliticalMap2DEdition/Editor/WorldMapOptimizationInspector.cs" Line="1" Column="1" />
+      <File FileName="Assets/WorldPoliticalMap2DEdition/Editor/WorldMapNDEditorInspector.cs" Line="1" Column="1" />
+      <File FileName="Assets/WorldPoliticalMap2DEdition/Scripts/MapEditor/WorldMapEditorCountry.cs" Line="1" Column="1" />
+      <File FileName="Assets/WorldPoliticalMap2DEdition/Scripts/WorldMap2DCountries.cs" Line="1" Column="1" />
+      <File FileName="Assets/WorldPoliticalMap2DEdition/Scripts/WorldMap2DRefresh.cs" Line="1" Column="1" />
+      <File FileName="Assets/WorldPoliticalMap2DEdition/Scripts/SaveRegionData.cs" Line="1" Column="1" />
+      <File FileName="Assets/WorldPoliticalMap2DEdition/Scripts/WorldMap2DCostFuncs.cs" Line="1" Column="1" />
+      <File FileName="Assets/WorldPoliticalMap2DEdition/Scripts/WorldMap2DMarkersAndLines.cs" Line="1" Column="1" />
+      <File FileName="Assets/WorldPoliticalMap2DEdition/Scripts/Core/WorldMap2DPrivCountry.cs" Line="1" Column="1" />
+      <File FileName="Assets/WorldPoliticalMap2DEdition/Scripts/Core/Country.cs" Line="1" Column="1" />
+      <File FileName="Assets/WorldPoliticalMap2DEdition/Scripts/Events/Disasters.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

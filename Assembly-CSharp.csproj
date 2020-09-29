@@ -1,0 +1,326 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LangVersion>4</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{4F93A0F7-C4E8-4F86-D9E9-B9F06347ADC9}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_3_0;UNITY_2017_3;UNITY_2017;UNITY_ANALYTICS;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_GRID;ENABLE_TILEMAP;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_DIRECTOR;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;ENABLE_SPRITE_MASKING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_VIDEO;ENABLE_RMGUI;ENABLE_PACKMAN;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_STYLE_SHEETS;ENABLE_LOCALIZATION;PLATFORM_STANDALONE_WIN;PLATFORM_STANDALONE;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_EVENT_QUEUE;ENABLE_CLUSTERINPUT;ENABLE_VR;ENABLE_AR;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_2_0_SUBSET;DEVELOPMENT_BUILD;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\DisableEvoStatus.cs" />
+     <Compile Include="Assets\DisasterDefaultAnim.cs" />
+     <Compile Include="Assets\GodChanTest.cs" />
+     <Compile Include="Assets\Lang.cs" />
+     <Compile Include="Assets\LoadSettings.cs" />
+     <Compile Include="Assets\TestGui.cs" />
+     <Compile Include="Assets\UI\Scripts\AbilityDetail.cs" />
+     <Compile Include="Assets\UI\Scripts\AdjustEBSize.cs" />
+     <Compile Include="Assets\UI\Scripts\ConfirmMod.cs" />
+     <Compile Include="Assets\UI\Scripts\CountryInfo.cs" />
+     <Compile Include="Assets\UI\Scripts\DragAndDrop.cs" />
+     <Compile Include="Assets\UI\Scripts\EarthStyleChange.cs" />
+     <Compile Include="Assets\UI\Scripts\EnergyFillBar.cs" />
+     <Compile Include="Assets\UI\Scripts\EventDetail.cs" />
+     <Compile Include="Assets\UI\Scripts\FutureEnergyBar.cs" />
+     <Compile Include="Assets\UI\Scripts\GameTimeStatus.cs" />
+     <Compile Include="Assets\UI\Scripts\GodForm.cs" />
+     <Compile Include="Assets\UI\Scripts\HoldToDisplay.cs" />
+     <Compile Include="Assets\UI\Scripts\LM.cs" />
+     <Compile Include="Assets\UI\Scripts\MainMenuBehavior.cs" />
+     <Compile Include="Assets\UI\Scripts\Pause.cs" />
+     <Compile Include="Assets\UI\Scripts\PauseAndContinue.cs" />
+     <Compile Include="Assets\UI\Scripts\QuiteMonitor.cs" />
+     <Compile Include="Assets\UI\Scripts\SaveLoad.cs" />
+     <Compile Include="Assets\UI\Scripts\TimeDisplay.cs" />
+     <Compile Include="Assets\UI\Scripts\TimeDisplay2.cs" />
+     <Compile Include="Assets\UI\Scripts\VictoryScreenBehavior.cs" />
+     <Compile Include="Assets\WorldPoliticalMap2DEdition\Demos\Common\ColorHSV.cs" />
+     <Compile Include="Assets\WorldPoliticalMap2DEdition\Demos\Common\ColorPicker.cs" />
+     <Compile Include="Assets\WorldPoliticalMap2DEdition\Demos\Common\GUIResizer.cs" />
+     <Compile Include="Assets\WorldPoliticalMap2DEdition\Demos\Demo 1 Perspective\DemoPersp.cs" />
+     <Compile Include="Assets\WorldPoliticalMap2DEdition\Demos\Demo 4 Viewport Ortho\Demo 3 Orthographic\DemoOrtho.cs" />
+     <Compile Include="Assets\WorldPoliticalMap2DEdition\Demos\Demo 4 Viewport Ortho\DemoOrthoViewport.cs" />
+     <Compile Include="Assets\WorldPoliticalMap2DEdition\Scripts\Calculator\WorldMapCalculator.cs" />
+     <Compile Include="Assets\WorldPoliticalMap2DEdition\Scripts\Constants.cs" />
+     <Compile Include="Assets\WorldPoliticalMap2DEdition\Scripts\Core\Cities.cs" />
+     <Compile Include="Assets\WorldPoliticalMap2DEdition\Scripts\Core\CityBlinker.cs" />
+     <Compile Include="Assets\WorldPoliticalMap2DEdition\Scripts\Core\CityScaler.cs" />
+     <Compile Include="Assets\WorldPoliticalMap2DEdition\Scripts\Core\Country.cs" />
+     <Compile Include="Assets\WorldPoliticalMap2DEdition\Scripts\Core\Drawing.cs" />
+     <Compile Include="Assets\WorldPoliticalMap2DEdition\Scripts\Core\IAdmin.cs" />
+     <Compile Include="Assets\WorldPoliticalMap2DEdition\Scripts\Core\LineMarkerAnimator.cs" />
+     <Compile Include="Assets\WorldPoliticalMap2DEdition\Scripts\Core\MarkerBlinker.cs" />
+     <Compile Include="Assets\WorldPoliticalMap2DEdition\Scripts\Core\Misc.cs" />
+     <Compile Include="Assets\WorldPoliticalMap2DEdition\Scripts\Core\MountPoint.cs" />
+     <Compile Include="Assets\WorldPoliticalMap2DEdition\Scripts\Core\MountPointScaler.cs" />
+     <Compile Include="Assets\WorldPoliticalMap2DEdition\Scripts\Core\PointerTrigger.cs" />
+     <Compile Include="Assets\WorldPoliticalMap2DEdition\Scripts\Core\Province.cs" />
+     <Compile Include="Assets\WorldPoliticalMap2DEdition\Scripts\Core\Region.cs" />
+     <Compile Include="Assets\WorldPoliticalMap2DEdition\Scripts\Core\SurfaceBlinker.cs" />
+     <Compile Include="Assets\WorldPoliticalMap2DEdition\Scripts\Core\Triangulator.cs" />
+     <Compile Include="Assets\WorldPoliticalMap2DEdition\Scripts\Core\WorldMap2DMountPoints.cs" />
+     <Compile Include="Assets\WorldPoliticalMap2DEdition\Scripts\Core\WorldMap2DPrivate.cs" />
+     <Compile Include="Assets\WorldPoliticalMap2DEdition\Scripts\Core\WorldMap2DPrivCities.cs" />
+     <Compile Include="Assets\WorldPoliticalMap2DEdition\Scripts\Core\WorldMap2DPrivCountry.cs" />
+     <Compile Include="Assets\WorldPoliticalMap2DEdition\Scripts\Core\WorldMap2DPrivData.cs" />
+     <Compile Include="Assets\WorldPoliticalMap2DEdition\Scripts\Core\WorldMap2DPrivProvince.cs" />
+     <Compile Include="Assets\WorldPoliticalMap2DEdition\Scripts\Decorator\CountryDecorator.cs" />
+     <Compile Include="Assets\WorldPoliticalMap2DEdition\Scripts\Decorator\CountryDecoratorGroupInfo.cs" />
+     <Compile Include="Assets\WorldPoliticalMap2DEdition\Scripts\Decorator\WorldMapDecorator.cs" />
+     <Compile Include="Assets\WorldPoliticalMap2DEdition\Scripts\EventIcons.cs" />
+     <Compile Include="Assets\WorldPoliticalMap2DEdition\Scripts\EventMod.cs" />
+     <Compile Include="Assets\WorldPoliticalMap2DEdition\Scripts\Events\BlankPlace.cs" />
+     <Compile Include="Assets\WorldPoliticalMap2DEdition\Scripts\Events\Disasters.cs" />
+     <Compile Include="Assets\WorldPoliticalMap2DEdition\Scripts\Events\EventDisplayer.cs" />
+     <Compile Include="Assets\WorldPoliticalMap2DEdition\Scripts\Events\ExtremeEvents\Earthquake_NEvent.cs" />
+     <Compile Include="Assets\WorldPoliticalMap2DEdition\Scripts\Events\ExtremeEvents\ExtremeDisasters.cs" />
+     <Compile Include="Assets\WorldPoliticalMap2DEdition\Scripts\Events\ExtremeEvents\Meteor_NEvent.cs" />
+     <Compile Include="Assets\WorldPoliticalMap2DEdition\Scripts\Events\ExtremeEvents\Volcano_NEvent.cs" />
+     <Compile Include="Assets\WorldPoliticalMap2DEdition\Scripts\Events\HumanEvents\GenericEvents\Financial_GenericEvent.cs" />
+     <Compile Include="Assets\WorldPoliticalMap2DEdition\Scripts\Events\HumanEvents\GenericEvents\GenericDisasters.cs" />
+     <Compile Include="Assets\WorldPoliticalMap2DEdition\Scripts\Events\HumanEvents\GenericEvents\Riot_GenericEvent.cs" />
+     <Compile Include="Assets\WorldPoliticalMap2DEdition\Scripts\Events\HumanEvents\GenericEvents\War_GenericEvent.cs" />
+     <Compile Include="Assets\WorldPoliticalMap2DEdition\Scripts\Events\HumanEvents\HumanDisasters.cs" />
+     <Compile Include="Assets\WorldPoliticalMap2DEdition\Scripts\Events\HumanEvents\Plague_Event.cs" />
+     <Compile Include="Assets\WorldPoliticalMap2DEdition\Scripts\Events\HumanEvents\TechnologyBreakThrough_Event.cs" />
+     <Compile Include="Assets\WorldPoliticalMap2DEdition\Scripts\Events\HumanEvents\TerroristAttack_Event.cs" />
+     <Compile Include="Assets\WorldPoliticalMap2DEdition\Scripts\Events\IconDisplayer.cs" />
+     <Compile Include="Assets\WorldPoliticalMap2DEdition\Scripts\Events\NaturalEvents\Drought_NEvent.cs" />
+     <Compile Include="Assets\WorldPoliticalMap2DEdition\Scripts\Events\NaturalEvents\Flood_NEvent.cs" />
+     <Compile Include="Assets\WorldPoliticalMap2DEdition\Scripts\Events\NaturalEvents\Frost_NEvent.cs" />
+     <Compile Include="Assets\WorldPoliticalMap2DEdition\Scripts\Events\NaturalEvents\NaturalDisasters.cs" />
+     <Compile Include="Assets\WorldPoliticalMap2DEdition\Scripts\Events\NaturalEvents\Tornado_NEvent.cs" />
+     <Compile Include="Assets\WorldPoliticalMap2DEdition\Scripts\Events\NaturalEvents\Wildfire_NEvent.cs" />
+     <Compile Include="Assets\WorldPoliticalMap2DEdition\Scripts\Events\SaveEventData.cs" />
+     <Compile Include="Assets\WorldPoliticalMap2DEdition\Scripts\Events\SpriteArchive.cs" />
+     <Compile Include="Assets\WorldPoliticalMap2DEdition\Scripts\Events\Testing_Event.cs" />
+     <Compile Include="Assets\WorldPoliticalMap2DEdition\Scripts\MapEditor\PolygonClipping\Connector.cs" />
+     <Compile Include="Assets\WorldPoliticalMap2DEdition\Scripts\MapEditor\PolygonClipping\Geom\Contour.cs" />
+     <Compile Include="Assets\WorldPoliticalMap2DEdition\Scripts\MapEditor\PolygonClipping\Geom\Misc.cs" />
+     <Compile Include="Assets\WorldPoliticalMap2DEdition\Scripts\MapEditor\PolygonClipping\Geom\Polygon.cs" />
+     <Compile Include="Assets\WorldPoliticalMap2DEdition\Scripts\MapEditor\PolygonClipping\Geom\Rectangle.cs" />
+     <Compile Include="Assets\WorldPoliticalMap2DEdition\Scripts\MapEditor\PolygonClipping\PointChain.cs" />
+     <Compile Include="Assets\WorldPoliticalMap2DEdition\Scripts\MapEditor\PolygonClipping\PolygonClipper.cs" />
+     <Compile Include="Assets\WorldPoliticalMap2DEdition\Scripts\MapEditor\PolygonClipping\Sweepline\EventQueue.cs" />
+     <Compile Include="Assets\WorldPoliticalMap2DEdition\Scripts\MapEditor\PolygonClipping\Sweepline\SweepEvent.cs" />
+     <Compile Include="Assets\WorldPoliticalMap2DEdition\Scripts\MapEditor\PolygonClipping\Sweepline\SweepEventSet.cs" />
+     <Compile Include="Assets\WorldPoliticalMap2DEdition\Scripts\MapEditor\WorldMapEditor.cs" />
+     <Compile Include="Assets\WorldPoliticalMap2DEdition\Scripts\MapEditor\WorldMapEditorCities.cs" />
+     <Compile Include="Assets\WorldPoliticalMap2DEdition\Scripts\MapEditor\WorldMapEditorCountry.cs" />
+     <Compile Include="Assets\WorldPoliticalMap2DEdition\Scripts\MapEditor\WorldMapEditorData.cs" />
+     <Compile Include="Assets\WorldPoliticalMap2DEdition\Scripts\MapEditor\WorldMapEditorMountPoints.cs" />
+     <Compile Include="Assets\WorldPoliticalMap2DEdition\Scripts\MapEditor\WorldMapEditorND.cs" />
+     <Compile Include="Assets\WorldPoliticalMap2DEdition\Scripts\MapEditor\WorldMapEditorProvince.cs" />
+     <Compile Include="Assets\WorldPoliticalMap2DEdition\Scripts\MapEditor\WorldMapEditorTriangulators.cs" />
+     <Compile Include="Assets\WorldPoliticalMap2DEdition\Scripts\ModList.cs" />
+     <Compile Include="Assets\WorldPoliticalMap2DEdition\Scripts\RegionData.cs" />
+     <Compile Include="Assets\WorldPoliticalMap2DEdition\Scripts\SaveRegionData.cs" />
+     <Compile Include="Assets\WorldPoliticalMap2DEdition\Scripts\Tickers\TickerBand.cs" />
+     <Compile Include="Assets\WorldPoliticalMap2DEdition\Scripts\Tickers\TickerText.cs" />
+     <Compile Include="Assets\WorldPoliticalMap2DEdition\Scripts\Tickers\TickerTextAnimator.cs" />
+     <Compile Include="Assets\WorldPoliticalMap2DEdition\Scripts\Tickers\WorldMapTicker.cs" />
+     <Compile Include="Assets\WorldPoliticalMap2DEdition\Scripts\Tutorial\KeyTutorial.cs" />
+     <Compile Include="Assets\WorldPoliticalMap2DEdition\Scripts\Tutorial\Tutorial.cs" />
+     <Compile Include="Assets\WorldPoliticalMap2DEdition\Scripts\Tutorial\TutorialManager.cs" />
+     <Compile Include="Assets\WorldPoliticalMap2DEdition\Scripts\WorldMap2D.cs" />
+     <Compile Include="Assets\WorldPoliticalMap2DEdition\Scripts\WorldMap2DCities.cs" />
+     <Compile Include="Assets\WorldPoliticalMap2DEdition\Scripts\WorldMap2DColoring.cs" />
+     <Compile Include="Assets\WorldPoliticalMap2DEdition\Scripts\WorldMap2DCostFuncs.cs" />
+     <Compile Include="Assets\WorldPoliticalMap2DEdition\Scripts\WorldMap2DCountries.cs" />
+     <Compile Include="Assets\WorldPoliticalMap2DEdition\Scripts\WorldMap2DDebuging.cs" />
+     <Compile Include="Assets\WorldPoliticalMap2DEdition\Scripts\WorldMap2DEarth.cs" />
+     <Compile Include="Assets\WorldPoliticalMap2DEdition\Scripts\WorldMap2DEnergyAndMods.cs" />
+     <Compile Include="Assets\WorldPoliticalMap2DEdition\Scripts\WorldMap2DEventSystem.cs" />
+     <Compile Include="Assets\WorldPoliticalMap2DEdition\Scripts\WorldMap2DGodStatus.cs" />
+     <Compile Include="Assets\WorldPoliticalMap2DEdition\Scripts\WorldMap2DInitialization.cs" />
+     <Compile Include="Assets\WorldPoliticalMap2DEdition\Scripts\WorldMap2DInteraction.cs" />
+     <Compile Include="Assets\WorldPoliticalMap2DEdition\Scripts\WorldMap2DMarkersAndLines.cs" />
+     <Compile Include="Assets\WorldPoliticalMap2DEdition\Scripts\WorldMap2DMountPoints.cs" />
+     <Compile Include="Assets\WorldPoliticalMap2DEdition\Scripts\WorldMap2DOptimization.cs" />
+     <Compile Include="Assets\WorldPoliticalMap2DEdition\Scripts\WorldMap2DProvinces.cs" />
+     <Compile Include="Assets\WorldPoliticalMap2DEdition\Scripts\WorldMap2DRefresh.cs" />
+     <Compile Include="Assets\WorldPoliticalMap2DEdition\Scripts\WorldMap2DSaveLoad.cs" />
+     <Compile Include="Assets\WorldPoliticalMap2DEdition\Scripts\WorldMap2DWar.cs" />
+     <None Include="Assets\WorldPoliticalMap2DEdition\Resources\WPMF\Shaders\UnlitCutoutOverlay.shader" />
+     <None Include="Assets\WorldPoliticalMap2DEdition\README.txt" />
+     <None Include="Assets\WorldPoliticalMap2DEdition\Backup\countries110.txt" />
+     <None Include="Assets\WorldPoliticalMap2DEdition\Resources\WPMF\Shaders\UnlitColorTexture.shader" />
+     <None Include="Assets\WorldPoliticalMap2DEdition\Resources\WPMF\Shaders\UnlitSurfacesTexture.shader" />
+     <None Include="Assets\WorldPoliticalMap2DEdition\Resources\WPMF\Shaders\UnlitSurfacesColor.shader" />
+     <None Include="Assets\WorldPoliticalMap2DEdition\Resources\WPMF\Shaders\UnlitSingleColorOrder2.shader" />
+     <None Include="Assets\WorldPoliticalMap2DEdition\Backup\countries10.txt" />
+     <None Include="Assets\WorldPoliticalMap2DEdition\Resources\WPMF\Shaders\UnlitAlphaTextureColor.shader" />
+     <None Include="Assets\WorldPoliticalMap2DEdition\Resources\WPMF\Shaders\UnlitOutline.shader" />
+     <None Include="Assets\WorldPoliticalMap2DEdition\Resources\WPMF\Geodata\provinces10.txt" />
+     <None Include="Assets\WorldPoliticalMap2DEdition\Resources\WPMF\Geodata\countries110.txt" />
+     <None Include="Assets\WorldPoliticalMap2DEdition\Backup\provinces10.txt" />
+     <None Include="Assets\WorldPoliticalMap2DEdition\Resources\WPMF\Shaders\UnlitOverlay.shader" />
+     <None Include="Assets\WorldPoliticalMap2DEdition\Resources\WPMF\Shaders\UnlitEarth16KScenic.shader" />
+     <None Include="Assets\WorldPoliticalMap2DEdition\Resources\WPMF\Shaders\UnlitSingleTexture.shader" />
+     <None Include="Assets\WorldPoliticalMap2DEdition\Resources\WPMF\Shaders\UnlitHighlight.shader" />
+     <None Include="Assets\WorldPoliticalMap2DEdition\Backup\cities10.txt" />
+     <None Include="Assets\WorldPoliticalMap2DEdition\Resources\WPMF\Geodata\mountPoints.txt" />
+     <None Include="Assets\WorldPoliticalMap2DEdition\Resources\WPMF\Geodata\cities10.txt" />
+     <None Include="Assets\Resources\test.xml" />
+     <None Include="Assets\WorldPoliticalMap2DEdition\Resources\WPMF\Shaders\UnlitEarthScenic.shader" />
+     <None Include="Assets\WorldPoliticalMap2DEdition\Resources\WPMF\Geodata\triangulator10.txt" />
+     <None Include="Assets\WorldPoliticalMap2DEdition\Resources\WPMF\Shaders\UnlitSingleColorCursor.shader" />
+     <None Include="Assets\WorldPoliticalMap2DEdition\Resources\WPMF\Shaders\UnlitEarth16K.shader" />
+     <None Include="Assets\WorldPoliticalMap2DEdition\Resources\WPMF\Shaders\UnlitSingleColorOrder1.shader" />
+     <None Include="Assets\WorldPoliticalMap2DEdition\Resources\WPMF\Shaders\UnlitOutline2.shader" />
+     <None Include="Assets\WorldPoliticalMap2DEdition\Resources\WPMF\Geodata\countries10.txt" />
+     <None Include="Assets\WorldPoliticalMap2DEdition\Resources\WPMF\Shaders\UnlitAlphaSingleColor.shader" />
+     <None Include="Assets\WorldPoliticalMap2DEdition\Resources\WPMF\Shaders\UnlitCountryFrontiersOrder3.shader" />
+     <None Include="Assets\WorldPoliticalMap2DEdition\Resources\WPMF\Geodata\nd10.txt" />
+     <None Include="Assets\WorldPoliticalMap2DEdition\Resources\WPMF\Geodata\data10.txt" />
+     <None Include="Assets\Resources\CountryNames.xml" />
+     <None Include="Assets\WorldPoliticalMap2DEdition\Resources\WPMF\Shaders\UnlitProvinceBordersOrder2.shader" />
+     <None Include="Assets\WorldPoliticalMap2DEdition\Resources\WPMF\Shaders\UnlitGUIText.shader" />
+ <Reference Include="UnityEngine.UIAutomation">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UIAutomation/UnityEngine.UIAutomation.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.UIAutomation">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UIAutomation/Editor/UnityEditor.UIAutomation.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.TestRunner">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/TestRunner/Editor/UnityEditor.TestRunner.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TestRunner">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll</HintPath>
+ </Reference>
+ <Reference Include="nunit.framework">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Networking">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/Editor/UnityEditor.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UI">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.UI">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Timeline">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Timeline">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Timeline/Editor/UnityEditor.Timeline.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.TreeEditor">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/TreeEditor/Editor/UnityEditor.TreeEditor.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.GoogleAudioSpatializer">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityGoogleAudioSpatializer/Editor/UnityEditor.GoogleAudioSpatializer.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.GoogleAudioSpatializer">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityGoogleAudioSpatializer/RuntimeEditor/UnityEngine.GoogleAudioSpatializer.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.HoloLens">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityHoloLens/Editor/UnityEditor.HoloLens.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.HoloLens">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.SpatialTracking">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnitySpatialTracking/Editor/UnityEditor.SpatialTracking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.SpatialTracking">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.VR">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityVR/Editor/UnityEditor.VR.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Graphs">
+ <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEditor.Graphs.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Android.Extensions">
+ <HintPath>/Applications/Unity/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.iOS.Extensions">
+ <HintPath>/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.WindowsStandalone.Extensions">
+ <HintPath>/Applications/Unity/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.OSXStandalone.Extensions">
+ <HintPath>/Applications/Unity/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Advertisements">
+ <HintPath>/Users/TheWanderingPath/Library/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.3/UnityEngine.Advertisements.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Advertisements">
+ <HintPath>/Users/TheWanderingPath/Library/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.3/Editor/UnityEditor.Advertisements.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>/Users/TheWanderingPath/Library/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.13/UnityEngine.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Analytics">
+ <HintPath>/Users/TheWanderingPath/Library/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.13/Editor/UnityEditor.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Purchasing">
+ <HintPath>/Users/TheWanderingPath/Library/Unity/cache/packages/packages.unity.com/com.unity.purchasing@0.0.19/UnityEngine.Purchasing.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Purchasing">
+ <HintPath>/Users/TheWanderingPath/Library/Unity/cache/packages/packages.unity.com/com.unity.purchasing@0.0.19/Editor/UnityEditor.Purchasing.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.StandardEvents">
+ <HintPath>/Users/TheWanderingPath/Library/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.10/UnityEngine.StandardEvents.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

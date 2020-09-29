@@ -1,0 +1,128 @@
+<languages>
+  <English>
+    <string _text="World" name="World"/>
+    <string _text="Libya" name="Libya"/>
+    <string _text="Morocco" name="Morocco"/>
+    <string _text="Madagascar" name="Madagascar"/>
+    <string _text="Afghanistan" name="Afghanistan"/>
+    <string _text="Mexico" name="Mexico"/>
+    <string _text="Angola" name="Angola"/>
+    <string _text="Myanmar" name="Myanmar"/>
+    <string _text="Argentina" name="Argentina"/>
+    <string _text="Mongolia" name="Mongolia"/>
+    <string _text="Antarctica" name="Antarctica"/>
+    <string _text="Australia" name="Australia"/>
+    <string _text="New European Union" name="New European Union"/>
+    <string _text="Malaysia" name="Malaysia"/>
+    <string _text="New Zealand" name="New Zealand"/>
+    <string _text="Pakistan" name="Pakistan"/>
+    <string _text="Peru" name="Peru"/>
+    <string _text="Philippines" name="Philippines"/>
+    <string _text="Belarus" name="Belarus"/>
+    <string _text="Papua New Guinea" name="Papua New Guinea"/>
+    <string _text="Poland" name="Poland"/>
+    <string _text="Bolivia" name="Bolivia"/>
+    <string _text="Brazil" name="Brazil"/>
+    <string _text="North Korea" name="North Korea"/>
+    <string _text="Canada" name="Canada"/>
+    <string _text="China" name="China"/>
+    <string _text="The Congo Empire" name="The Congo Empire"/>
+    <string _text="Meso-America Union" name="Meso-America Union"/>
+    <string _text="Russia" name="Russia"/>
+    <string _text="Saudi Arabia" name="Saudi Arabia"/>
+    <string _text="Sudan" name="Sudan"/>
+    <string _text="West Africa Empire" name="West Africa Empire"/>
+    <string _text="Germany" name="Germany"/>
+    <string _text="Algeria" name="Algeria"/>
+    <string _text="Ecuador" name="Ecuador"/>
+    <string _text="Egypt" name="Egypt"/>
+    <string _text="Spain" name="Spain"/>
+    <string _text="Baltic States" name="Baltic States"/>
+    <string _text="Scandinavia" name="Scandinavia"/>
+    <string _text="Republic of East Africa" name="Republic of East Africa"/>
+    <string _text="Mesopotamia" name="Mesopotamia"/>
+    <string _text="France" name="France"/>
+    <string _text="Chad" name="Chad"/>
+    <string _text="United Kingdom" name="United Kingdom"/>
+    <string _text="Turkey" name="Turkey"/>
+    <string _text="United Republic of Tanzania" name="United Republic of Tanzania"/>
+    <string _text="Ukraine" name="Ukraine"/>
+    <string _text="United States of America" name="United States of America"/>
+    <string _text="Central Asia" name="Central Asia"/>
+    <string _text="South East Asia United" name="South East Asia United"/>
+    <string _text="Greenland" name="Greenland"/>
+    <string _text="South Africa" name="South Africa"/>
+    <string _text="Zimbabwe" name="Zimbabwe"/>
+    <string _text="Indonesia" name="Indonesia"/>
+    <string _text="India" name="India"/>
+    <string _text="Iran" name="Iran"/>
+    <string _text="Iceland" name="Iceland"/>
+    <string _text="Italy" name="Italy"/>
+    <string _text="Japan" name="Japan"/>
+    <string _text="Kazakhstan" name="Kazakhstan"/>
+    <string _text="South Korea" name="South Korea"/>
+  </English>
+  <Chinese>
+    <string _text="世界" name="World"/>
+    <string _text="利比亚" name="Libya"/>
+    <string _text="摩洛哥" name="Morocco"/>
+    <string _text="马达加斯加" name="Madagascar"/>
+    <string _text="阿富汗" name="Afghanistan"/>
+    <string _text="墨西哥" name="Mexico"/>
+    <string _text="安哥拉" name="Angola"/>
+    <string _text="缅甸" name="Myanmar"/>
+    <string _text="阿根廷" name="Argentina"/>
+    <string _text="蒙古" name="Mongolia"/>
+    <string _text="南极洲地区" name="Antarctica"/>
+    <string _text="澳大利亚" name="Australia"/>
+    <string _text="新欧洲联盟" name="New European Union"/>
+    <string _text="马来西亚" name="Malaysia"/>
+    <string _text="新西兰" name="New Zealand"/>
+    <string _text="巴基斯坦" name="Pakistan"/>
+    <string _text="秘鲁" name="Peru"/>
+    <string _text="菲律宾" name="Philippines"/>
+    <string _text="白俄罗斯" name="Belarus"/>
+    <string _text="巴布亚新几内亚" name="Papua New Guinea"/>
+    <string _text="波兰" name="Poland"/>
+    <string _text="玻利维亚" name="Bolivia"/>
+    <string _text="巴西" name="Brazil"/>
+    <string _text="朝鲜" name="North Korea"/>
+    <string _text="加拿大" name="Canada"/>
+    <string _text="中国" name="China"/>
+    <string _text="刚果帝国" name="The Congo Empire"/>
+    <string _text="中美洲联盟" name="Meso-America Union"/>
+    <string _text="俄罗斯" name="Russia"/>
+    <string _text="沙特阿拉伯" name="Saudi Arabia"/>
+    <string _text="苏丹" name="Sudan"/>
+    <string _text="西非帝国" name="West Africa Empire"/>
+    <string _text="德国" name="Germany"/>
+    <string _text="阿尔及利亚" name="Algeria"/>
+    <string _text="厄瓜多尔" name="Ecuador"/>
+    <string _text="埃及" name="Egypt"/>
+    <string _text="西班牙" name="Spain"/>
+    <string _text="波罗的海诸国" name="Baltic States"/>
+    <string _text="斯堪的纳维亚" name="Scandinavia"/>
+    <string _text="东非共和国" name="Republic of East Africa"/>
+    <string _text="美索不达米亚地区" name="Mesopotamia"/>
+    <string _text="法国" name="France"/>
+    <string _text="乍得" name="Chad"/>
+    <string _text="英国" name="United Kingdom"/>
+    <string _text="土耳其" name="Turkey"/>
+    <string _text="坦桑尼亚" name="United Republic of Tanzania"/>
+    <string _text="乌克兰" name="Ukraine"/>
+    <string _text="美国" name="United States of America"/>
+    <string _text="中亚地区" name="Central Asia"/>
+    <string _text="东南亚联盟" name="South East Asia United"/>
+    <string _text="格陵兰" name="Greenland"/>
+    <string _text="南非" name="South Africa"/>
+    <string _text="津巴布韦" name="Zimbabwe"/>
+    <string _text="印度尼西亚" name="Indonesia"/>
+    <string _text="印度" name="India"/>
+    <string _text="伊朗" name="Iran"/>
+    <string _text="冰岛" name="Iceland"/>
+    <string _text="意大利" name="Italy"/>
+    <string _text="日本" name="Japan"/>
+    <string _text="哈萨克斯坦" name="Kazakhstan"/>
+    <string _text="韩国" name="South Korea"/>
+  </Chinese>
+</languages>

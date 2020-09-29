@@ -1,0 +1,62 @@
+<languages>
+  <English>
+    <string name="Plague" _text="Plague"/>
+    <string name="WarGenre" _text="War Genre"/>
+    <string name="Skirmish" _text="Skirmish"/>
+    <string name="War" _text="War"/>
+    <string name="FullScaleWar" _text="Full-Scale War"/>
+    <string name="FinancialGenre" _text="Financial Genre"/>
+    <string name="Inflation" _text="Inflation"/>
+    <string name="FinancialCrisis" _text="Financial Crisis"/>
+    <string name="RiotGenre" _text="Riot Genre"/>
+    <string name="Riot" _text="Riot"/>
+    <string name="Rebellion" _text="Rebellion"/>
+    <string name="TerroristAttack" _text="Terrorist Attack"/>
+    <string name="TechnologyBreakThrough" _text="Technology Break Through"/>
+    <string name="Wildfire" _text="Wildfire"/>
+    <string name="Frost" _text="Frost"/>
+    <string name="Flood" _text="Flood"/>
+    <string name="Drought" _text="Drought"/>
+    <string name="Tornado" _text="Tornado"/>
+    <string name="Volcano" _text="Volcano"/>
+    <string name="Earthquake" _text="Earthquake"/>
+    <string name="Meteor" _text="Meteor"/>
+    <string name="Population" _text="Population"/>
+    <string name="GDP" _text="GDP"/>
+    <string name="Technology" _text="Technology"/>
+    <string name="Resource" _text="Resource"/>
+    <string name="Religion" _text="Religion"/>
+    <string name="Cultist" _text="Cultist"/>
+    <string name="Unhappiness" _text="Unhappiness"/>
+  </English>
+  <Chinese>
+    <string name="Plague" _text="瘟疫"/>
+    <string name="WarGenre" _text="战争类"/>
+    <string name="Skirmish" _text="边境冲突"/>
+    <string name="War" _text="战争"/>
+    <string name="FullScaleWar" _text="全面战争"/>
+    <string name="FinancialGenre" _text="经济类"/>
+    <string name="Inflation" _text="通货膨胀"/>
+    <string name="FinancialCrisis" _text="经济危机"/>
+    <string name="RiotGenre" _text="暴动类"/>
+    <string name="Riot" _text="暴动"/>
+    <string name="Rebellion" _text="政变"/>
+    <string name="TerroristAttack" _text="恐怖袭击"/>
+    <string name="TechnologyBreakThrough" _text="科技大突破"/>
+    <string name="Wildfire" _text="山火"/>
+    <string name="Frost" _text="霜冻"/>
+    <string name="Flood" _text="洪涝"/>
+    <string name="Drought" _text="干旱"/>
+    <string name="Tornado" _text="龙卷风"/>
+    <string name="Volcano" _text="火山"/>
+    <string name="Earthquake" _text="地震"/>
+    <string name="Meteor" _text="陨石"/>
+    <string name="Population" _text="人口"/>
+    <string name="GDP" _text="GDP"/>
+    <string name="Technology" _text="科技"/>
+    <string name="Resource" _text="资源"/>
+    <string name="Religion" _text="宗教"/>
+    <string name="Cultist" _text="邪教徒"/>
+    <string name="Unhappiness" _text="怨气值"/>
+  </Chinese>
+</languages>
