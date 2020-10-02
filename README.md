@@ -9,10 +9,10 @@ It's not just simply wiping populations though; Devi-Chan's powers are derived f
 This was a joint effort started at the end of high school. 
 Team Members:
 - Max Yu - Lead, Code
-- Shanrui Zhang - Art
+- [Sean Zhang](https://github.com/SeanDaranafy) - Art - seanzhang99@hotmail.com
 - Zhenrui (Ferguson) Zhang - Modeling
 - Duanyang (Daniel) Wang - Modeling
-- Yong (Peter) Song - Code
+- [Yong (Peter) Song](https://github.com/Peter2000623) - Code - yongsong@berkeley.edu
 - Chuning Zhu - Code
 - Sinong (Simon) Zhan - Code
 - Jin Li - Music
